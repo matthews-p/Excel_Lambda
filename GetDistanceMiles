@@ -1,0 +1,4 @@
+=ACOS(
+    COS(RADIANS(LatX)) * COS(RADIANS(LatY)) * COS(RADIANS(LngY - LngX)) +
+        SIN(RADIANS(LatX)) * SIN(RADIANS(LatY))
+) * 3959
