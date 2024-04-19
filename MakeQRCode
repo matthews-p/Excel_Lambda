@@ -1,1 +1,1 @@
-
+=IMAGE("https://qrcode.tec-it.com/API/QRCode?data=" & ENCODEURL(URL))
